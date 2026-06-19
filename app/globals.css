@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+/* default */
+html {
+  color-scheme: light;
+}
+
+/* dark mode trigger */
+html.dark {
+  color-scheme: dark;
+}
+
+/* base styles ONLY with tailwind layers */
+body {
+  @apply bg-white text-slate-900 transition-colors duration-300;
+}
+
+/* dark mode */
+html.dark body {
+  @apply bg-slate-950 text-slate-100;
+}
