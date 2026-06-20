@@ -22,11 +22,11 @@ export default function Experience() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: false, amount: 0.3 }}
         transition={{ duration: 1.2 }}
-        className="border border-slate-200 rounded-2xl p-8 shadow-md max-w-3xl mx-auto"
+        className="border border-slate-200 rounded-2xl md:p-8 shadow-md max-w-3xl mx-auto"
       >
         <div className="flex items-center gap-4">
           <BsBagDashFill className="text-3xl text-amber-950" />
-          <h2 className="text-xl font-bold">Flutter Developer Intern</h2>
+          <h2 className="text-lg md:text-xl font-bold">Flutter Developer Intern</h2>
         </div>
 
         <div className="mt-4">
