@@ -28,7 +28,7 @@ export default function About() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: false, amount: 0.3 }}
           transition={{ duration: 1.6 }}
-          className="max-w-xl text-base md:text-lg text-slate-700 leading-8 text-center md:text-left"
+          className="max-w-2xl text-base md:text-lg text-slate-500 leading-8 text-center md:text-left"
         >
           I’m a Software Engineering graduate with a strong focus on Frontend
           Development using React.js and Next.js. I enjoy building modern,

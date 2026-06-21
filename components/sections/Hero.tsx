@@ -34,7 +34,7 @@ export default function Hero() {
         className="flex flex-col sm:flex-row gap-4 mt-5 w-full sm:w-auto px-6"
       >
         <a
-  href="/NABILA ALAWAD (7).pdf"
+  href="\Nabila_Al_Awad_Resume.pdf"
   download
   className="bg-blue-600 flex items-center justify-center text-white px-7 py-3 gap-2 rounded-xl w-full sm:w-auto"
 >
